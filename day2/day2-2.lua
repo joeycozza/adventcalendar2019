@@ -1,6 +1,6 @@
 local helpers = require('helpers')
 
-function compute(noun, verb) 
+local function compute(noun, verb)
   local tape = helpers.createTape()
   tape[2] = noun
   tape[3] = verb
