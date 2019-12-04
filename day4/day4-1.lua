@@ -11,6 +11,7 @@ for i = 1, 1000 do
   print(i, hasDouble(i))
 end
 
+-- https://stackoverflow.com/questions/829063/how-to-iterate-individual-characters-in-lua-string
 
 --  local regex = re.compile("r(e*)gex?")
 --  local match = regex:execute("reeeeegex")
